@@ -68,6 +68,8 @@ curl \
   --data-binary @"$UPLOAD_FILE_NAME" \
   $UPLOAD_URL
 
+# 9. Delete Temporary Files
+
 rm ./create_module_payload.json
 rm ./create_module_version_payload.json
 rm "$UPLOAD_FILE_NAME"
